@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ShowEmployees from "../components/ShowEmployees/ShowEmployees";
+import ShowEmployees from "../components/ShowEmployees";
 
 export default function CurrentEmployees() {
   const [entriesToShow, setEntriesToShow] = useState(25);

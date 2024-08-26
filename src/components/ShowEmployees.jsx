@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { useSelector } from "react-redux";
-import TableHeader from "../TableHeader/TableHeader";
-import TableBody from "../TableBody/TableBody";
-import Pagination from "../Pagination/Pagination";
+import TableHeader from "./TableHeader";
+import TableBody from "./TableBody";
+import Pagination from "./Pagination";
 
 export default function ShowEmployees({ entriesToShow, searchQuery }) {
   const employees = useSelector((state) => state.employees);

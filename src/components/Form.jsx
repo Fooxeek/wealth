@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
+import { addEmployee } from "../slices/employeesSlice";
+import { states, departments } from "../assets/data/state";
 import { Modal } from "modal-react-loganb";
-import { addEmployee } from "../../slices/employeesSlice";
-import { states, departments } from "../../assets/data/state";
 
 export default function Form() {
   const dispatch = useDispatch();
