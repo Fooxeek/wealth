@@ -238,7 +238,13 @@ export default function Form() {
           </button>
         </div>
       </form>
-      <Modal isVisible={isModalVisible} onClose={handleCloseModal} />
+      <Modal
+        isVisible={isModalVisible}
+        onClose={handleCloseModal}
+        title="Employee Created"
+        message="The employee has been successfully created."
+        closeButtonLabel="Close"
+      />
     </div>
   );
 }
