@@ -68,6 +68,7 @@ export default function Form() {
                 type="text"
                 id="firstName"
                 name="firstName"
+                required
                 value={formData.firstName}
                 onChange={handleChange}
                 className="mt-1 p-2 w-full border rounded"
@@ -85,6 +86,7 @@ export default function Form() {
                 type="text"
                 id="lastName"
                 name="lastName"
+                required
                 value={formData.lastName}
                 onChange={handleChange}
                 className="mt-1 p-2 w-full border rounded"
@@ -102,6 +104,7 @@ export default function Form() {
                 type="date"
                 id="dateOfBirth"
                 name="dateOfBirth"
+                required
                 value={formData.dateOfBirth}
                 onChange={handleChange}
                 className="mt-1 p-2 w-full border rounded"
